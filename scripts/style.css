@@ -1,0 +1,144 @@
+*{ margin:0; padding: 0; }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Noto+Sans+SC:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+
+body {
+    background: linear-gradient(to right, #2c1e1e 16.62%, #8E5D52 85.61%);
+}
+
+h1{
+    margin: 30px;
+    text-align: center;
+    font-family: 'Balsamiq Sans', cursive;
+    color: white;
+    
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: center;
+    height:25px;
+    width: 100%;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+#conteudos {
+    display: flex;
+    font-family: 'Noto Serif', serif;
+    justify-content: center;   
+    
+}
+
+#info-user {
+    display: flex;
+    width: 450px;
+    height: 400px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #744444 16.62%, #643a31 85.61%);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+#box-textidd {
+    height: 34px;
+    width: 320px;
+    border-radius: 5px;
+    border: 5px;
+    background-color: #968682;
+    font-size: 14px;
+}
+
+#box-textpr {
+    height: 34px;
+    width: 320px;
+    border-radius: 5px;
+    border: 5px;
+    background-color: #968682;
+    font-size: 14px;
+}
+
+input::placeholder {
+    color: white;
+    text-align: center;
+}
+
+img {
+    margin-bottom: 12px;
+    width: 40px;
+    height: 40px;
+    padding-right: 5px;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+#btn-send {
+    height: 34px;
+    width: 320px;
+    border-radius: 9px;
+    cursor: pointer;
+    border: none;
+    background-color: #8B4513;
+    font-size: 15px;
+}
+
+#btn-send:hover {
+    background-color: #302c2c;
+    color: white;
+    transition: .7s;
+    border: none;
+}
+
+#info-second {
+    display: none;
+    width: 450px;
+    height: 400px;
+    margin-left: 20px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #462a2a 16.62%, #241714 85.61%);
+    color: white;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 39px;
+    font-size: 19px;
+}
+
+#idade-second {
+    font-family: 'Supermercado One', cursive;
+    color: aquamarine;
+}
+
+#linguagem-programacao {
+    font-family: 'Supermercado One', cursive;
+    color: blueviolet;
+    margin-right: 15px;
+}
+
+span {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    padding-left: 20px;
+    
+
+}
+
+#footer-second {
+    display: none;
+    color: cadetblue;
+    gap: 10px;
+    margin-top: 100px;
+    font-size: 15px;
+    align-items: flex-end;
+}
+
+#footer-second a {
+    text-decoration: none;
+    color: cadetblue;
+}
